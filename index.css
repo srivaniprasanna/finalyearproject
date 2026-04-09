@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Farming-themed background for all pages */
+.bg-farming {
+  background-image: linear-gradient(
+    rgba(232, 245, 233, 0.88),
+    rgba(200, 230, 201, 0.9)
+  ), url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg-farming-dark {
+  background-image: linear-gradient(
+    rgba(27, 94, 32, 0.75),
+    rgba(56, 142, 60, 0.8)
+  ), url('https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=1920');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
